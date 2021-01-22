@@ -7,9 +7,9 @@ namespace OOP1
     class Product //*** bu tip class'larda sadece özellikler olur. Fiyatı,kategorisi, ıd vs. ***
                  //***method ve operasyon içeren class'lar ayrı olur.***
     {
-        public int Id { get; set; }
+        public int Id { get; set; } //primary key
 
-        public int CategoryId { get; set; }
+        public int CategoryId { get; set; } //foreign key
 
         public string ProductName { get; set; }
 
@@ -19,3 +19,5 @@ namespace OOP1
 
     }
 }
+
+//kodun okunabilirliği açısından özellikler yazılırken; objeyi diğer objelerden ayıran Id gibi spesifik özellikler ilk satırlarda tanımlanır.
