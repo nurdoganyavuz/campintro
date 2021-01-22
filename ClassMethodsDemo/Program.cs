@@ -11,7 +11,7 @@ namespace ClassMethodsDemo
             customer1.CustomerId = 101;
             customer1.CustormerName = "Nur";
             customer1.CustomerSurname = "Yavuz";
-            customer1.Age = 23;
+            customer1.Age = 24;
             customer1.Gender = "Female";
 
             Customer customer2 = new Customer();
