@@ -64,7 +64,7 @@ namespace GenericsIntro
 //items.Length+1 olarak newlenince; 4 elemanlı boş bir diziyi tutmaya basladı bellekte.
 //sonra geçici array'deki verilerini geri alacak
 //bunun için for döngüsü ile, tempArray dizisinin elemanlarını index-index kendi üzerine yazdırır.
-//items[0] = tempArray[0] --> items = ["a"," " ," " ," " ]
+//items[0] = tempArray[0] --> items = ["a"," " ," " ," "]
 //döngü sonlanınca items = ["a","b" ,"c" ," " ] olur. Son index boş. Buraya eklemek istediğimiz item'ı ekleyecegiz.
 //items.Length = 4, items.Length-1 = 3; items dizisinin son indexi 3'tür. Boş olan bu sonuncu indexe item'ı eklemek istiyoruz.
 //son indexe item'ı ekleyebilmek için --> items[items.Length - 1] = item; yaparız.
